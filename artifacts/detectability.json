@@ -1,0 +1,63 @@
+{
+  "claim_type": "descriptive",
+  "n_train": 192,
+  "n_test": 48,
+  "train_events": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08"
+  ],
+  "test_events": [
+    "E09",
+    "E10"
+  ],
+  "benign_variants": [
+    "anchored",
+    "paraphrase"
+  ],
+  "strategic_variants": [
+    "num_drift",
+    "authority_cues",
+    "certainty_inflate",
+    "omission",
+    "full_persuade_bull",
+    "full_persuade_bear"
+  ],
+  "class_balance_train": {
+    "benign": 48,
+    "strategic": 144
+  },
+  "class_balance_test": {
+    "benign": 12,
+    "strategic": 36
+  },
+  "accuracy_train": 0.75,
+  "f1_train": 0.857143,
+  "accuracy_test": 0.75,
+  "f1_test": 0.857143,
+  "top_strategic_terms": [
+    "figures include",
+    "reported figures",
+    "highlighted",
+    "selective",
+    "selected facts",
+    "selected",
+    "highlighted figures",
+    "selective summary"
+  ],
+  "top_benign_terms": [
+    "card constrained",
+    "is fact",
+    "this summary",
+    "constrained and",
+    "constrained",
+    "and not",
+    "fact card",
+    "fact"
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "study_id": "genfin_ecology_v1",
+  "timestamp_utc": "2026-09-06T17:00:07.104379+00:00",
+  "n_events": 10,
+  "n_variants": 8,
+  "n_personas": 4,
+  "n_seeds": 3,
+  "n_belief_cells": 960,
+  "n_text_cells": 240,
+  "design_formula": "10 events \u00d7 8 variants \u00d7 4 personas \u00d7 3 seeds = 960",
+  "variants": [
+    "anchored",
+    "num_drift",
+    "authority_cues",
+    "certainty_inflate",
+    "omission",
+    "full_persuade_bull",
+    "full_persuade_bear",
+    "paraphrase"
+  ],
+  "means": {
+    "abs_delta_mu_by_variant": {
+      "anchored": 0.111919,
+      "num_drift": 0.108198,
+      "authority_cues": 0.201158,
+      "certainty_inflate": 0.114285,
+      "omission": 0.093209,
+      "full_persuade_bull": 0.265283,
+      "full_persuade_bear": 0.144035,
+      "paraphrase": 0.111919
+    },
+    "abs_delta_mu_anchored": 0.111919,
+    "abs_delta_mu_full_persuade": 0.204659,
+    "belief_lift_full_persuade_minus_anchored": 0.09274,
+    "mean_persuade_contamination_slope": -0.174141,
+    "mean_anchored_contamination_slope": -0.047965,
+    "mean_multiround_slope": -0.111961,
+    "mean_multiround_final_abs_bias": 0.327889,
+    "mean_single_shot_abs_bias_at_mr_rho": 0.035972,
+    "mean_faithfulness_by_variant": {
+      "anchored": 0.975,
+      "num_drift": 0.941667,
+      "authority_cues": 0.975,
+      "certainty_inflate": 0.975,
+      "omission": 0.770079,
+      "full_persuade_bull": 0.739127,
+      "full_persuade_bear": 0.81123,
+      "paraphrase": 0.975
+    },
+    "mean_fabrication_by_variant": {
+      "anchored": 0.0,
+      "num_drift": 0.0,
+      "authority_cues": 2.0,
+      "certainty_inflate": 0.0,
+      "omission": 0.0,
+      "full_persuade_bull": 1.0,
+      "full_persuade_bear": 1.0,
+      "paraphrase": 0.0
+    },
+    "mean_certainty_by_variant": {
+      "anchored": 0.014286,
+      "num_drift": 0.011111,
+      "authority_cues": 0.011111,
+      "certainty_inflate": 0.348253,
+      "omission": 0.005556,
+      "full_persuade_bull": 0.485761,
+      "full_persuade_bear": 0.189837,
+      "paraphrase": 0.014286
+    },
+    "mean_hedge_by_variant": {
+      "anchored": 0.077638,
+      "num_drift": 0.065589,
+      "authority_cues": 0.063367,
+      "certainty_inflate": 0.058203,
+      "omission": 0.058365,
+      "full_persuade_bull": 0.041353,
+      "full_persuade_bear": 0.132059,
+      "paraphrase": 0.077638
+    },
+    "mean_frame_stability_anchored_vs_paraphrase": 0.991575,
+    "mean_disagreement_by_variant": {
+      "anchored": 0.102403,
+      "num_drift": 0.099938,
+      "authority_cues": 0.069177,
+      "certainty_inflate": 0.085085,
+      "omission": 0.088217,
+      "full_persuade_bull": 0.079371,
+      "full_persuade_bear": 0.121615,
+      "paraphrase": 0.102403
+    },
+    "willingness_rate_by_variant": {
+      "anchored": 0.566667,
+      "num_drift": 0.55,
+      "authority_cues": 0.658333,
+      "certainty_inflate": 0.566667,
+      "omission": 0.441667,
+      "full_persuade_bull": 0.708333,
+      "full_persuade_bear": 0.433333,
+      "paraphrase": 0.566667
+    },
+    "mean_tail_frac_by_variant": {
+      "anchored": 0.2,
+      "num_drift": 0.2,
+      "authority_cues": 0.2,
+      "certainty_inflate": 0.2,
+      "omission": 0.1,
+      "full_persuade_bull": 0.0,
+      "full_persuade_bear": 1.0,
+      "paraphrase": 0.2
+    }
+  },
+  "detectability": {
+    "claim_type": "descriptive",
+    "n_train": 192,
+    "n_test": 48,
+    "train_events": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08"
+    ],
+    "test_events": [
+      "E09",
+      "E10"
+    ],
+    "benign_variants": [
+      "anchored",
+      "paraphrase"
+    ],
+    "strategic_variants": [
+      "num_drift",
+      "authority_cues",
+      "certainty_inflate",
+      "omission",
+      "full_persuade_bull",
+      "full_persuade_bear"
+    ],
+    "class_balance_train": {
+      "benign": 48,
+      "strategic": 144
+    },
+    "class_balance_test": {
+      "benign": 12,
+      "strategic": 36
+    },
+    "accuracy_train": 0.75,
+    "f1_train": 0.857143,
+    "accuracy_test": 0.75,
+    "f1_test": 0.857143,
+    "top_strategic_terms": [
+      "figures include",
+      "reported figures",
+      "highlighted",
+      "selective",
+      "selected facts",
+      "selected",
+      "highlighted figures",
+      "selective summary"
+    ],
+    "top_benign_terms": [
+      "card constrained",
+      "is fact",
+      "this summary",
+      "constrained and",
+      "constrained",
+      "and not",
+      "fact card",
+      "fact"
+    ]
+  },
+  "bootstrap": {
+    "B": 200,
+    "belief_lift": {
+      "mean": 0.092552,
+      "ci_low": 0.075344,
+      "ci_high": 0.106918,
+      "B": 200
+    },
+    "cert_minus_drift": {
+      "mean": 0.006338,
+      "ci_low": -0.007969,
+      "ci_high": 0.017843,
+      "B": 200
+    },
+    "mr_minus_single_shot": {
+      "mean": 0.298236,
+      "ci_low": 0.264861,
+      "ci_high": 0.318333,
+      "B": 200
+    }
+  },
+  "rqs": {
+    "RQ1": {
+      "question": "Do combined persuade variants increase mean |\u0394\u03bc| vs anchored by margin m1?",
+      "m1": 0.03,
+      "measured_lift": 0.09274,
+      "abs_delta_mu_anchored": 0.111919,
+      "abs_delta_mu_full_persuade": 0.204659,
+      "pass": true,
+      "bootstrap_ci": {
+        "mean": 0.092552,
+        "ci_low": 0.075344,
+        "ci_high": 0.106918,
+        "B": 200
+      }
+    },
+    "RQ2": {
+      "question": "Does certainty_inflate alone move |\u0394\u03bc| more than num_drift alone?",
+      "m2": 0.0,
+      "abs_delta_mu_certainty_inflate": 0.114285,
+      "abs_delta_mu_num_drift": 0.108198,
+      "measured_diff": 0.006087,
+      "pass": true,
+      "bootstrap_ci": {
+        "mean": 0.006338,
+        "ci_low": -0.007969,
+        "ci_high": 0.017843,
+        "B": 200
+      }
+    },
+    "RQ3": {
+      "question": "Is |bias| after R multi-round preferential-reuse steps steeper (larger) than single-shot mix at the same \u03c1?",
+      "m3": 0.0,
+      "R": 3,
+      "rho": 0.25,
+      "abs_multiround_final_bias": 0.327889,
+      "abs_single_shot_bias_at_rho": 0.035972,
+      "mean_multiround_slope": -0.111961,
+      "mean_single_shot_slope": -0.174141,
+      "measured_diff": 0.291917,
+      "pass": true,
+      "bootstrap_ci": {
+        "mean": 0.298236,
+        "ci_low": 0.264861,
+        "ci_high": 0.318333,
+        "B": 200
+      }
+    },
+    "RQ4": {
+      "question": "Does detectability F1 on held-out events exceed chance by margin m4?",
+      "m4": 0.15,
+      "chance_f1": 0.5,
+      "f1_test": 0.857143,
+      "accuracy_test": 0.75,
+      "measured_margin": 0.357143,
+      "pass": true,
+      "claim_type": "descriptive"
+    }
+  },
+  "rq_summary": {
+    "RQ1": true,
+    "RQ2": true,
+    "RQ3": true,
+    "RQ4": true,
+    "n_pass": 4
+  }
+}

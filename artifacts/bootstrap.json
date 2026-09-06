@@ -1,0 +1,21 @@
+{
+  "B": 200,
+  "belief_lift": {
+    "mean": 0.092552,
+    "ci_low": 0.075344,
+    "ci_high": 0.106918,
+    "B": 200
+  },
+  "cert_minus_drift": {
+    "mean": 0.006338,
+    "ci_low": -0.007969,
+    "ci_high": 0.017843,
+    "B": 200
+  },
+  "mr_minus_single_shot": {
+    "mean": 0.298236,
+    "ci_low": 0.264861,
+    "ci_high": 0.318333,
+    "B": 200
+  }
+}
