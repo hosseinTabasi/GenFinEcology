@@ -1,0 +1,53 @@
+# GenFinEcology study configuration
+# Author: Hossein Tabasi
+
+study_id: genfin_ecology_v1
+seeds: [20260311, 20260813, 20260101]
+variants:
+  - anchored
+  - num_drift
+  - authority_cues
+  - certainty_inflate
+  - omission
+  - full_persuade_bull
+  - full_persuade_bear
+  - paraphrase
+num_epsilon: 0.02
+willingness_tau: 0.08
+willingness_kappa: 0.55
+contamination_rho: [0.0, 0.1, 0.25, 0.5, 0.75]
+baseline_corpus_size: 200
+# Multi-round ecological contamination (C+)
+multiround:
+  R: 3
+  rho: 0.25
+  preferential_boost: 1.5
+# Detectability (Layer D): train on E01–E08, test on E09–E10
+detectability:
+  train_events: [E01, E02, E03, E04, E05, E06, E07, E08]
+  test_events: [E09, E10]
+  benign_variants: [anchored, paraphrase]
+  strategic_variants:
+    - num_drift
+    - authority_cues
+    - certainty_inflate
+    - omission
+    - full_persuade_bull
+    - full_persuade_bear
+# Bootstrap CIs
+bootstrap:
+  B: 200
+  seed: 20260311
+# Pre-registered RQ falsification thresholds
+falsification:
+  m1: 0.03          # RQ1: combined persuade |Δμ| − anchored |Δμ|
+  m2: 0.0           # RQ2: certainty_inflate |Δμ| − num_drift |Δμ| (strict >)
+  m3: 0.0           # RQ3: |final multiround bias| − |single-shot bias at same ρ| (strict >)
+  m4: 0.15          # RQ4: held-out F1 − chance (0.5)
+  chance_f1: 0.5
+paths:
+  events_dir: data/events
+  personas: data/personas.yaml
+  lexicons_dir: data/lexicons
+  artifacts_dir: artifacts
+  results_md: reports/RESULTS.md
