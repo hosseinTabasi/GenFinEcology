@@ -1,0 +1,49 @@
+event_id: E01
+date: '2023-03-11'
+asset: USDC
+event_type: depeg
+split: dev
+title: USDC secondary depeg after SVB receivership
+official_status: SVB in FDIC receivership as of 2023-03-10; Circle disclosed inaccessible
+  $3.3B reserve deposit and pledged 1:1 redemption plus corporate-resource coverage
+  of any shortfall.
+peg_path_72h: negative
+source_allowlist:
+- Reuters
+- Chainalysis
+- CoinDesk
+- Circle
+- FDIC
+- Federal Reserve
+polarity_hint: -1
+facts:
+- claim: SVB entered FDIC receivership on 2023-03-10
+  numbers: []
+  unit: null
+- claim: Circle disclosed about $3.3 billion of USDC reserves at SVB
+  numbers:
+  - 3.3
+  unit: USD_billion
+- claim: Reuters reported $3.3 billion of $40 billion of USDC reserves at SVB
+  numbers:
+  - 3.3
+  - 40.0
+  unit: USD_billion
+- claim: 'Chainalysis: $3.3 billion was roughly 8 percent of dollars backing USDC'
+  numbers:
+  - 3.3
+  - 8.0
+  unit: mixed
+- claim: By early 11 Mar USDC secondary value fell to about $0.87
+  numbers:
+  - 0.87
+  unit: USD
+- claim: 'CoinDesk: USDC/USDT on Kraken sank as low as 87 cents at 07:16 UTC on 11
+    Mar 2023'
+  numbers:
+  - 0.87
+  unit: USD
+- claim: 'CoinDesk: pair back around 94 cents as of 18:07 UTC on 11 Mar 2023'
+  numbers:
+  - 0.94
+  unit: USD

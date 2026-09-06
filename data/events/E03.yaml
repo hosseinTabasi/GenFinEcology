@@ -1,0 +1,36 @@
+event_id: E03
+date: '2024-07-01'
+asset: USDC
+event_type: regulatory
+split: dev
+title: Circle SAS dual issuer under MiCA / ACPR EMI
+official_status: Circle SAS is a dual issuer of USDC from 1 July 2024 under an ACPR
+  EMI license; USDC is an EMT and not a significant EMT as of that white paper.
+peg_path_72h: unknown
+source_allowlist:
+- Circle
+- ACPR
+- MiCA
+polarity_hint: 1
+facts:
+- claim: Circle USDC MiCA white paper notified to ACPR on May 31 2024
+  numbers: []
+  unit: null
+- claim: From July 1 2024 Circle SAS became a second dual issuer of USDC
+  numbers: []
+  unit: null
+- claim: USDC first issued by Circle LLC in September 2018
+  numbers:
+  - 2018
+  unit: year
+- claim: USDC issued by Circle SAS fully fungible with Circle LLC issuance
+  numbers: []
+  unit: null
+- claim: Circle obtained EMI license from ACPR
+  numbers: []
+  unit: null
+- claim: As of white paper USDC does not constitute a significant e-money token under
+    Article 56 of MiCA
+  numbers:
+  - 56
+  unit: article

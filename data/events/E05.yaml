@@ -1,0 +1,40 @@
+event_id: E05
+date: '2025-01-31'
+asset: USDT
+event_type: reserve/attestation
+split: dev
+title: Tether BDO Q4 2024 attestation
+official_status: BDO assurance opinion on Tether Q4 2024 consolidated reserves as
+  of 31 Dec 2024 published 31 Jan 2025; proprietary investments excluded from token
+  reserves.
+peg_path_72h: unknown
+source_allowlist:
+- Tether
+- BDO
+polarity_hint: 1
+facts:
+- claim: 31 January 2025 Tether released BDO assurance opinion as of December 31 2024
+  numbers: []
+  unit: null
+- claim: Yearly net profits exceeding $13 billion
+  numbers:
+  - 13.0
+  unit: USD_billion
+- claim: U.S. Treasuries reached $113 billion in direct and indirect holdings
+  numbers:
+  - 113.0
+  unit: USD_billion
+- claim: Excess reserve buffer exceeded $7 billion marking a 36 percent yearly increase
+  numbers:
+  - 7.0
+  - 36.0
+  unit: mixed
+- claim: Q4 issuance over $23 billion in USDT; total issuance $45 billion for 2024
+  numbers:
+  - 23.0
+  - 45.0
+  unit: USD_billion
+- claim: As of December 31 2024 group consolidated total assets $157.6 billion
+  numbers:
+  - 157.6
+  unit: USD_billion

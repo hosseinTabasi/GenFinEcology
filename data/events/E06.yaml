@@ -1,0 +1,41 @@
+event_id: E06
+date: '2025-06-05'
+asset: USDC
+event_type: issuer operational
+split: dev
+title: Circle Internet Group IPO pricing and NYSE listing
+official_status: S-1 declared effective 4 Jun 2025; 34,000,000 Class A shares priced
+  at $31.00; NYSE listing expected 5 Jun 2025 ticker CRCL.
+peg_path_72h: unknown
+source_allowlist:
+- Circle
+- SEC
+- NYSE
+polarity_hint: 1
+facts:
+- claim: Circle announced 4 June 2025 pricing of upsized IPO of 34000000 Class A shares
+    at $31.00
+  numbers:
+  - 34000000
+  - 31.0
+  unit: mixed
+- claim: Circle offering 14800000 shares; selling stockholders offering 19200000 shares
+  numbers:
+  - 14800000
+  - 19200000
+  unit: shares
+- claim: Underwriters 30-day option to purchase up to additional 5100000 shares
+  numbers:
+  - 5100000
+  unit: shares
+- claim: Shares expected to begin trading NYSE June 5 2025 under ticker CRCL
+  numbers: []
+  unit: null
+- claim: Closing expected June 6 2025 subject to customary conditions
+  numbers: []
+  unit: null
+- claim: 'SEC 424B4: total $1054000000.00 at that price for 34000000 shares'
+  numbers:
+  - 1054000000.0
+  - 34000000
+  unit: mixed

@@ -1,0 +1,38 @@
+event_id: E10
+date: '2026-08-13'
+asset: USDT
+event_type: reserve/attestation
+split: test
+title: Tether announces KPMG U.S. unqualified opinion
+official_status: KPMG U.S. unqualified opinion on Tether International S.A. de C.V.
+  2025 financial statements year ended 31 Dec 2025 US GAAP announced 13 Aug 2026;
+  excess $6.814B as of 31 Dec 2025; full report not published as of CoinDesk report.
+peg_path_72h: unknown
+source_allowlist:
+- Tether
+- KPMG
+- CoinDesk
+- BDO
+polarity_hint: 1
+facts:
+- claim: 13 August 2026 Tether announced full independent audit of Tether International
+    financial statements for year ended December 31 2025
+  numbers: []
+  unit: null
+- claim: KPMG issued an unqualified audit opinion under U.S. GAAP
+  numbers: []
+  unit: null
+- claim: Reserves exceeded liabilities by $6.814 billion as of 31 Dec 2025
+  numbers:
+  - 6.814
+  unit: USD_billion
+- claim: Audit complements existing quarterly reserve reporting
+  numbers: []
+  unit: null
+- claim: KPMG physically counted and inspected every individual gold bar held by Tether
+    per Tether page
+  numbers: []
+  unit: null
+- claim: Full KPMG report not published as of CoinDesk reporting
+  numbers: []
+  unit: null

@@ -1,0 +1,34 @@
+event_id: E04
+date: '2024-12-13'
+asset: USDT
+event_type: regulatory
+split: dev
+title: Coinbase Europe restricts USDT under MiCA
+official_status: Coinbase Europe / Germany restricted services for USDT and five other
+  named tokens on 13 Dec 2024; USDC and EURC remain supported.
+peg_path_72h: unknown
+source_allowlist:
+- Coinbase
+- Cointelegraph
+- Decrypt
+polarity_hint: -1
+facts:
+- claim: Coinbase Europe Germany and Custody International restrict USDT and five
+    other stablecoins on Dec 13 2024
+  numbers: []
+  unit: null
+- claim: Restricted tokens include USDT PAX PYUSD GUSD GYEN and DAI
+  numbers: []
+  unit: null
+- claim: USDC and EURC remain supported as MiCA-compliant
+  numbers: []
+  unit: null
+- claim: Coinbase may re-enable services for stablecoins that achieve MiCA compliance
+    later
+  numbers: []
+  unit: null
+- claim: MiCA phase-one stablecoin regime applicable since June 30; full CASP framework
+    from Dec 30
+  numbers:
+  - 30
+  unit: day

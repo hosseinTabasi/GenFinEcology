@@ -1,0 +1,44 @@
+event_id: E08
+date: '2025-06-30'
+asset: USDT
+event_type: reserve/attestation
+split: dev
+title: Tether Q2 2025 BDO attestation / FFRR
+official_status: BDO Q2 2025 attestation as of 30 June 2025; management asserts assets
+  at least $162,574,933,798 and token-related liabilities $157,100,255,857.
+peg_path_72h: unknown
+source_allowlist:
+- Tether
+- BDO
+polarity_hint: 1
+facts:
+- claim: 'Q2 2025: over $13.4 billion USDT issued bringing circulating supply to more
+    than $157 billion'
+  numbers:
+  - 13.4
+  - 157.0
+  unit: USD_billion
+- claim: U.S. Treasuries including $105.5 billion direct and $21.3 billion indirect
+    exceeded $127 billion
+  numbers:
+  - 105.5
+  - 21.3
+  - 127.0
+  unit: USD_billion
+- claim: Net profit for Q2 2025 approximately $4.9 billion; H1 total $5.7 billion
+  numbers:
+  - 4.9
+  - 5.7
+  unit: USD_billion
+- claim: As of June 30 2025 management asserts total assets at least 162574933798
+  numbers:
+  - 162574933798
+  unit: USD
+- claim: Token-related liabilities 157100255857
+  numbers:
+  - 157100255857
+  unit: USD
+- claim: Shareholder capital approximately $5.47 billion
+  numbers:
+  - 5.47
+  unit: USD_billion

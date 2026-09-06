@@ -1,0 +1,39 @@
+event_id: E02
+date: '2023-03-12'
+asset: USDC
+event_type: operational/regulatory
+split: dev
+title: Joint backstop announcement and USDC peg recovery
+official_status: Systemic-risk exception / joint Treasury-Fed-FDIC announcement at
+  18:15 ET 12 Mar 2023; Circle liquidity operations resume Monday.
+peg_path_72h: positive
+source_allowlist:
+- Federal Reserve
+- Treasury
+- FDIC
+- Circle
+- Reuters
+- Chainalysis
+polarity_hint: 1
+facts:
+- claim: Joint Treasury/Fed/FDIC press release at 6:15 p.m. ET Sunday March 12 2023
+  numbers:
+  - 6.15
+  unit: time_et
+- claim: Announcement that SVB depositors insured and uninsured would be protected
+  numbers: []
+  unit: null
+- claim: Circle said liquidity operations resume Monday morning 13 Mar
+  numbers: []
+  unit: null
+- claim: On March 15 Circle announced redeemed $3.8 billion in USDC since Monday morning
+  numbers:
+  - 3.8
+  unit: USD_billion
+- claim: The $3.3 billion SVB reserve figure remains the disclosed Circle exposure
+  numbers:
+  - 3.3
+  unit: USD_billion
+- claim: USDC secondary recovered sharply after the backstop announcement
+  numbers: []
+  unit: null

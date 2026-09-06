@@ -1,0 +1,38 @@
+event_id: E09
+date: '2026-07-01'
+asset: USDT
+event_type: regulatory
+split: test
+title: MiCA CASP transition end; EEA venue restrictions on USDT
+official_status: MiCA CASP 18-month transition hard deadline 1 Jul 2026; USDC/EURC
+  MiCA-authorized via ACPR; Tether did not seek EMT authorization; EEA venue restrictions
+  on USDT; no sourced global supply crash.
+peg_path_72h: unknown
+source_allowlist:
+- Circle
+- Cointelegraph
+- crypto.news
+- ACPR
+polarity_hint: 0
+facts:
+- claim: MiCA 18-month CASP transitional period ended 1 July 2026
+  numbers:
+  - 18
+  unit: months
+- claim: Circle USDC/EURC are MiCA-authorized e-money tokens via France ACPR / Circle
+    SAS
+  numbers: []
+  unit: null
+- claim: Tether did not seek EMT authorization; CEO argued issuers must keep at least
+    60 percent of reserves in European bank deposits
+  numbers:
+  - 60.0
+  unit: percent
+- claim: MiCA-licensed exchanges including Coinbase Kraken Crypto.com removed USDT
+    trading for European users
+  numbers: []
+  unit: null
+- claim: 'Sourced reporting: little sign of weakening global demand for Tether; no
+    noticeable change in USDT supply attributable directly to MiCA'
+  numbers: []
+  unit: null

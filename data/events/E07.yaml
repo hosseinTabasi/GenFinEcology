@@ -1,0 +1,42 @@
+event_id: E07
+date: '2025-07-18'
+asset: USDT+USDC
+event_type: regulatory
+split: dev
+title: GENIUS Act signed as Public Law 119-27
+official_status: GENIUS Act (S.1582) signed 18 Jul 2025 as Public Law 119-27 creating
+  a U.S. federal payment-stablecoin framework.
+peg_path_72h: unknown
+source_allowlist:
+- Congress.gov
+- White House
+- Govinfo
+polarity_hint: 1
+facts:
+- claim: S.1582 GENIUS Act became Public Law No. 119-27 on 18 July 2025
+  numbers:
+  - 119
+  - 27
+  unit: law
+- claim: Passed Senate Yea-Nay Vote 68-30 Record Vote Number 318 on 2025-06-17
+  numbers:
+  - 68
+  - 30
+  - 318
+  unit: votes
+- claim: Passed House Yeas and Nays 308-122 Roll no. 200 on 2025-07-17
+  numbers:
+  - 308
+  - 122
+  - 200
+  unit: votes
+- claim: Signed by the President 18 July 2025
+  numbers: []
+  unit: null
+- claim: 'Govinfo: Public Law 119-27 July 18 2025 139 STAT. 419'
+  numbers:
+  - 119
+  - 27
+  - 139
+  - 419
+  unit: statute
