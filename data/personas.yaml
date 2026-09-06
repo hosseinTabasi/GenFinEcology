@@ -1,0 +1,47 @@
+description: Computational investor personas (not human subjects). Update rule documented
+  in metrics_belief.py.
+personas:
+- id: risk_officer
+  name: Risk Officer
+  mu0: 0.55
+  c0: 0.7
+  weights:
+    faithfulness: 0.45
+    certainty: -0.1
+    polarity: 0.35
+    hedge: 0.15
+    authority: 0.05
+  notes: High weight on numerical faithfulness; discounts certainty inflation.
+- id: retail_momentum
+  name: Retail Momentum
+  mu0: 0.5
+  c0: 0.4
+  weights:
+    faithfulness: 0.1
+    certainty: 0.4
+    polarity: 0.4
+    hedge: -0.15
+    authority: 0.25
+  notes: Sensitive to certainty and polarity cues; low prior confidence.
+- id: skeptical_analyst
+  name: Skeptical Analyst
+  mu0: 0.48
+  c0: 0.65
+  weights:
+    faithfulness: 0.5
+    certainty: -0.25
+    polarity: 0.2
+    hedge: 0.2
+    authority: -0.1
+  notes: Penalizes certainty inflation and authority cues without sources.
+- id: macro_allocator
+  name: Macro Allocator
+  mu0: 0.52
+  c0: 0.6
+  weights:
+    faithfulness: 0.3
+    certainty: 0.15
+    polarity: 0.35
+    hedge: 0.05
+    authority: 0.15
+  notes: Balanced weights; moderate response to framed polarity.
